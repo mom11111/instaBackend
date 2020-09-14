@@ -36,9 +36,10 @@ app.use(post);
 
 app.use(profile);
 
+const host = '0.0.0.0';
 const port = process.env.port || 7323;
 
-app.listen(port, (err,res)=>{
+app.listen(port,host, (err,res)=>{
     if(err)
       console.log(err);
     else
