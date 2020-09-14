@@ -36,6 +36,4 @@ app.use(post);
 
 app.use(profile);
 
-const port = process.env.port || 5000;
-
-app.listen(port);
+app.listen(process.env.PORT, '0.0.0.0')
