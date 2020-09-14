@@ -13,7 +13,7 @@ const follow = require('../models/follow');
 const profileInfo = require('../models/profile');
 
 router.get('/',(req,res)=>{
-    res.status(200).json({message:"app is working"});
+    res.send('hello');
 })
 
 router.post('/register', (req,res)=>{
