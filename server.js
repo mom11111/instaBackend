@@ -36,7 +36,7 @@ app.use(post);
 
 app.use(profile);
 
-const port = process.env.port || 9000;
+const port = process.env.port || 7323;
 
 app.listen(port, (err,res)=>{
     if(err)

@@ -14,7 +14,7 @@ const profileInfo = require('../models/profile');
 
 router.get('/',(req,res)=>{
     res.send('hello');
-})
+});
 
 router.post('/register', (req,res)=>{
 
