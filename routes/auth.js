@@ -12,6 +12,10 @@ const follow = require('../models/follow');
 
 const profileInfo = require('../models/profile');
 
+router.get('/',(req,res)=>{
+    res.send('hello');
+})
+
 router.post('/register', (req,res)=>{
 
       const{name, email, password} = req.body;
